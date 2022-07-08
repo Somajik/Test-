@@ -1,0 +1,32 @@
+#container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+ 
+ body,header {
+    background-color: #6B8E23;
+   
+}
+
+.titre {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu_header {
+    flex-wrap: wrap;
+    flex-direction: end;
+    
+}
+
+#menu_services{
+    flex-direction: row;
+    align-items: baseline;
+    
+}
+
+#carton {
+    padding: 10em;
+    width: 2000px;
+}
